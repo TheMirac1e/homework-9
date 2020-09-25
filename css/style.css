@@ -1209,7 +1209,8 @@ font-weight: 600;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-    width: 100%;
+  width: 100%;
+
 }
 .slick-prev, .slick-next{
   background: transparent;
@@ -1220,8 +1221,12 @@ font-weight: 600;
   padding: 10px;
   z-index: 20;
 }
+.slick-prev {
+  left: -10px;
+}
 .slick-prev:hover, .slick-next:hover {
   background-color: #00c8c8;
+  color: #ffffff;
 }
 /*slider*/
 
