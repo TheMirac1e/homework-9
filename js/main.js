@@ -66,14 +66,8 @@ input.addEventListener('input', function () {
     }
 });
 $(function(){
-    $( "#js-form" ).validate({
-        rules: {
-            color: { required: true },
-            size: { required: true }
-        }
-    });
+    $('.js-form').validate();
 });
-
 document.querySelectorAll(".tabs").forEach((tab) => {
     const tabHeading = tab.querySelectorAll(".tabs__heading");
     const tabContent = tab.querySelectorAll(".tabs__content");
